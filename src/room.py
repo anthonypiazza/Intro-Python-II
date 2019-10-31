@@ -9,3 +9,9 @@ class Room:
     
     def __str__(self):
         return f'Room: {self.name} \n Description: {self.description} \n'
+
+    def remove_item(self, item):
+        self.item_list.remove(item)
+
+    def add_item(self, item):
+        self.item_list.append(item)

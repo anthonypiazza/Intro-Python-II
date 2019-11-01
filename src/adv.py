@@ -212,3 +212,5 @@ while not user.lower()  == "q":
             print(listed_item[i])
 
     user = input("[n] North  [s] South  [e] East  [w] West  [i] Inventory  [q] Quit\n")
+
+    #End Loop: Game Over
